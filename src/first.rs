@@ -9,7 +9,7 @@ enum Link {
 
 struct Node {
   elem: i32,
-  next: List,
+  next: Link,
 }
 
 impl List {
